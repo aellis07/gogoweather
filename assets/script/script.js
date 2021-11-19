@@ -60,4 +60,21 @@ function previousSearch() {
 }
 previousSearch();
 
+// 5-DAY FORECAST
+function getWeatherForecast(search) {
+    var api_key = "092e71a1090dac60f74b32dccbf7f5bc";
+    var requestUrl =
+        "https://api.openweathermap.org/data/2.5/forecast?q=" +
+        search.value +
+        "&units=imperial&appid=";
+
+    fetch(requestUrl + api_key)
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) => {
+            console.log(data);
+        });
+}
+
 // INITILIZE
