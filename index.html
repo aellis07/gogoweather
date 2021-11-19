@@ -19,82 +19,13 @@
         </header>
         <main>
             <div class="container">
-                    <div class="row localCitySearch">
-                            <h3>Search for a city: </h3>
-                            <input
-                                type="text"
-                                placeholder="City"
-                                id="searchBox"
-                            />
-                            <button type="submit" class="btn" id="submitButton">
-                                Submit
-                            </button>
-                            <div>
-                                <h4>Search history:</h4>
-                            </div>
-                            <div>
-                                <ul class="list-group list-group-flush list-group-horizontal">
-                                    <li class="list-group-item" id="userSearchHistory"></li>
-                                </ul>
-
-                            </div>
-                    </div>
-                         <div class="row currentWeather">
-                            <h3 id="selectedCityWeather">Current Weather: </h3>
-                            <div>
-                                <ul
-                                    class="list-group list-group-flush list-group-horizontal"
-                                    id="weatherComponents"
-                                >
-                                    <li class="list-group-item" id="temp">
-                                        Current Temperature: 
-                                    </li>
-                                    <li class="list-group-item" id="windSpeed">
-                                        Wind Speed: 
-                                    </li>
-                                    <li class="list-group-item" id="humidity">
-                                        Humidity: 
-                                    </li>
-                                    <li class="list-group-item" id="uvIndex">
-                                        UV Index: 0
-                                    </li>
-                                </ul>
-                            </div>
-             </div>
-            <div class="row p-2 fiveDayReport" id="fiveDayForecast">
-                <h3 class="row p-2" id="forecastFiveDay">Five Day Forecast:</h3>
-                <div class="w-100"></div>
-
-                <ul class="col list-group forecast text-wrap" style="width: 6rem;" id="forecastOne">
-                    <li id="dateOne">Date: </li>
-                    <li id="tempOne">Temp: </li>
-                    <li id="windOne">Wind Speed: </li>
-                    <li id="humidityOne">Humidity: </li>
-                </ul>
-                <ul class="col list-group forecast text-wrap" style="width: 6rem;" id="forecastTwo">
-                    <li id="dateTwo">Date: </li>
-                    <li id="tempTwo">Temp: </li>
-                    <li id="windTwo">Wind Speed: </li>
-                    <li id="humidityTwo">Humidity: </li>
-                </ul>
-                <ul class="col list-group forecast text-wrap"  style="width: 6rem;"id="forecastThree">
-                    <li id="dateThree">Date: </li>
-                    <li id="tempThree">Temp: </li>
-                    <li id="windThree">Wind Speed: </li>
-                    <li id="humidityThree">Humidity: </li>
-                </ul>
-                <ul class="col list-group forecast text-wrap" style="width: 6rem;" id="forecastFour">
-                    <li id="dateFour">Date: </li>
-                    <li id="tempFour">Temp: </li>
-                    <li id="windFour">Wind Speed: </li>
-                    <li id="humidityFour">Humidity: </li>
-                </ul>
-                <ul class="col list-group forecast text-wrap" style="width: 6rem;" id="forecastFive">
-                    <li id="dateFive">Date: </li>
-                    <li id="tempFive">Temp: </li>
-                    <li id="windFive">Wind Speed: </li>
-                    <li id="humidityFive">Humidity: </li>
-                </ul> 
+                <div class="row localCitySearch">
+                    <h3>Search for a city:</h3>
+                    <input type="text" placeholder="City" id="searchBox" />
+                    <button type="submit" class="btn" id="submitButton">
+                        Submit
+                    </button>
+                </div>
             </div>
         </main>
         <script src="./assets/script/script.js"></script>
