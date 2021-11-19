@@ -47,3 +47,33 @@ h4 {
     margin-right: 5px;
     padding: 5px;
 }
+
+#userSearchHistory {
+    list-style-type: none;
+    font-size: 25px;
+    color: black;
+    /* background-color: rgb(109, 109, 109); */
+    /* border-radius: 3px; */
+    text-align: center;
+}
+
+#selectedCityWeather {
+    padding-left: 5px;
+}
+
+.currentWeather {
+    border: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.btn {
+    border: 1px;
+}
+.col-3 {
+    padding-left: -10px;
+    width: 100px;
+}
