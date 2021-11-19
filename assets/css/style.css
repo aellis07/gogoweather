@@ -12,3 +12,25 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+h1 {
+    line-height: 89px;
+    font-size: 4.5rem;
+    padding-top: 15px;
+}
+
+h3 {
+    white-space: nowrap;
+    /* margin-left: 0px; */
+    text-align: left;
+    display: block;
+}
+
+h4 {
+    justify-content: center;
+    white-space: nowrap;
+    /* margin-left: 0px; */
+    font-size: large;
+    align-items: center;
+    padding-top: 15px;
+}
