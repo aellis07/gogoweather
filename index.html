@@ -19,14 +19,26 @@
         </header>
         <main>
             <div class="container">
-                <div class="row localCitySearch">
-                    <h3>Search for a city:</h3>
-                    <input type="text" placeholder="City" id="searchBox" />
-                    <button type="submit" class="btn" id="submitButton">
-                        Submit
-                    </button>
-                </div>
-            </div>
+                    <div class="row localCitySearch">
+                            <h3>Search for a city: </h3>
+                            <input
+                                type="text"
+                                placeholder="City"
+                                id="searchBox"
+                            />
+                            <button type="submit" class="btn" id="submitButton">
+                                Submit
+                            </button>
+                            <div>
+                                <h4>Search history:</h4>
+                            </div>
+                            <div>
+                                <ul class="list-group list-group-flush list-group-horizontal">
+                                    <li class="list-group-item" id="userSearchHistory"></li>
+                                </ul>
+
+                            </div>
+                    </div>
         </main>
         <script src="./assets/script/script.js"></script>
     </body>
