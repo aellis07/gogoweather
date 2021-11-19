@@ -1,0 +1,125 @@
+header {
+    background: rgba(63, 9, 124, 0.699);
+    background: linear-gradient(
+        90deg,
+        rgb(86, 11, 136) 0%,
+        rgb(152, 107, 194) 47%,
+        rgb(195, 159, 214) 100%
+    );
+    color: whitesmoke;
+    font-family: var(--header-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    line-height: 89px;
+    font-size: 4.5rem;
+    padding-top: 15px;
+}
+
+h3 {
+    white-space: nowrap;
+    /* margin-left: 0px; */
+    text-align: left;
+    display: block;
+}
+
+h4 {
+    justify-content: center;
+    white-space: nowrap;
+    /* margin-left: 0px; */
+    font-size: large;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.container {
+    margin-top: 50px;
+}
+.localCitySearch {
+    align-items: center;
+    margin-bottom: 5px;
+    border: 1px;
+    border-style: solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+#selectedCityWeather {
+    padding-left: 5px;
+}
+#forecastFiveDay {
+    padding-left: 0px;
+}
+.currentWeather {
+    border: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.btn {
+    border: 1px;
+}
+.col-3 {
+    padding-left: -10px;
+    width: 100px;
+}
+.forecast {
+    display: flex;
+    flex-shrink: 10;
+    list-style: none;
+    background-color: rgba(37, 35, 51, 0.719);
+    line-height: 5;
+    color: whitesmoke;
+    /* margin: auto; */
+    border-radius: 2.5px;
+}
+
+#weatherComponents {
+    display: flex;
+    position: relative;
+    list-style-type: none;
+}
+
+#fiveDayForecast {
+    margin-left: 5px;
+    margin-right: 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#userSearchHistory {
+    list-style-type: none;
+    font-size: 25px;
+    color: black;
+    /* background-color: rgb(109, 109, 109); */
+    /* border-radius: 3px; */
+    text-align: center;
+}
+
+#forecastOne,
+#forecastTwo,
+#forecastThree,
+#forecastFour,
+#forecastFive {
+    word-wrap: break-word; /* padding-right: 30px; */
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+    justify-content: center;
+    height: 350px;
+    /* width: 100px; */
+}
