@@ -35,5 +35,20 @@ function getCurrentWeather(search) {
         "https://api.openweathermap.org/data/2.5/weather?q=" +
         search.value +
         "&units=imperial&appid=";
-    fetch(requestUrl + api_key);
+    fetch(requestUrl + api_key)
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) => {
+            console.log(data);
+
+            document.getElementById("temp").textContent =
+                "Current Temp: " + Math.round(data.main.temp) + " °F";
+            document.getElementById("windSpeed").textContent =
+                "Wind Speed: " + Math.round(data.wind.speed) + " mph";
+            document.getElementById("humidity").textContent =
+                "Humidity : " + Math.round(data.main.humidity) + " %";
+            // document.getElementById("uvIndex").textContent =
+            //     "UV Index: " + Math.round(data.main.temp) + ;
+        });
 }
