@@ -77,3 +77,9 @@ h4 {
     padding-left: -10px;
     width: 100px;
 }
+
+#weatherComponents {
+    display: flex;
+    position: relative;
+    list-style-type: none;
+}
