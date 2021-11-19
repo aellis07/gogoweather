@@ -52,3 +52,12 @@ function getCurrentWeather(search) {
             //     "UV Index: " + Math.round(data.main.temp) + ;
         });
 }
+
+function previousSearch() {
+    var storedCity = localStorage.getItem("Last Search", search.value);
+    userHistory.innerHTML = storedCity;
+    // console.log(storedCity);
+}
+previousSearch();
+
+// INITILIZE
