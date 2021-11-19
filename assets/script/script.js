@@ -74,6 +74,10 @@ function getWeatherForecast(search) {
         })
         .then((data) => {
             console.log(data);
+
+            // EACH DATA.dt_tx OBJECT REPRESENTS 3 HOURS
+            // data[0]-data[8] = 24 Hours
+
             // ======================================
             // DAY 1
 
@@ -160,5 +164,3 @@ function getWeatherForecast(search) {
                 "Humidity: " + Math.round(data.list[32].main.humidity) + " %";
         });
 }
-
-// INITILIZE
